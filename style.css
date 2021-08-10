@@ -40,7 +40,7 @@
 {
   align-item: center;
   margin: 10px;
-  border-radius: 0px !important;
+  border-radius: 2px !important;
 }
 #advance_img
 {
@@ -60,9 +60,10 @@
 {
   margin-top: 10px;
   padding: 10px;
-  background-color: #6495ED;
-  color: white;
+  background-color: #4d90fe;
+  color: #fff;
   border: solid;
+  font-weight: bold;
 }
 .search_buttons
 {
