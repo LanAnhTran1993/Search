@@ -1,0 +1,132 @@
+
+.out_link
+{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+.main
+{
+  padding-top: 150px;
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+
+}
+#img
+{
+  height: 40%;
+  width: 40%;
+}
+.search
+{
+  padding-top: 10px;
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+  border-radius: 30px;
+}
+#search_bar
+{
+  padding-inline: 5%;
+  border-radius: 30px;
+  font-size: 18px;
+}
+#search_button
+{
+  align-item: center;
+  margin: 10px;
+  border-radius: 0px !important;
+}
+#advance_img
+{
+  height: 40%;
+  width: 40%;
+  padding-top: 20px;
+  padding-left: 10px;
+  float: left;
+}
+.content
+{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+#advance_search_button
+{
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #6495ED;
+  color: white;
+  border: solid;
+}
+.search_buttons
+{
+  padding-top: 5px;
+}
+
+}
+p
+{
+  font-size: 18px;
+}
+h2
+{
+  color: red;
+}
+.container
+{
+  clear: both;
+}
+.table
+{
+float: left;
+display: inline-block;
+min-width: 167px;
+width: 16%;
+height: 42px;
+font-size: 16px;
+line-height: 16px;
+vertical-align: middle;
+}
+.label
+{
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.input_form
+{
+  float:left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}
+.input
+{
+      padding-right: 25px;
+}
+.input_text
+{
+  border: 1px solid;
+  border-radius: 1px;
+  border-top: 1px solid;
+  font-size: 13px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 25px;
+
+}
+#all
+{
+      -webkit-writing-mode: horizontal-tb !important;
+      display: inline-block;
+}

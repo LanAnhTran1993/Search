@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <link href="style.css" rel="stylesheet">
+        <title>Image Search</title>
+        <script language="javascript" type="text/javascript">
+
+        </script>
     </head>
     <body>
-        <form action="https://images.google.com/imghp?hl=en&gl=ar&gws_rd=ssl">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+      <a class="out_link" href="index.html">Go back to Search</a>
+
+    <div class="main">
+      <img id="img" alt="google_logo" src="google_logo.jpeg">
+        <form class="search" action="https://google.com/search">
+            <input type="hidden" name="tbm" value="isch">
+            <input id="search_bar" type="text" name="q" auto autocomplete="on">
+            <input id="search_button" type="submit" value="Google Search">
         </form>
+    </div>
     </body>
 </html>

@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <link href="style.css" rel="stylesheet">
+        <title>Advance Search</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+      <a class="out_link" href="index.html">Go back to Search</a>
+      <div class="content">
+      <img id="advance_img" alt="google_logo" src="google_logo.jpeg">
+      <h2>Advance Search</h2>
+      <form action="https://google.com/search">
+      <p>Find pages with:<p>
+      <div class="container">
+      <div class="table">
+      <div class="label">
+      <label>all these words:</label>
+      </div>
+      </div>
+      <div class="input_form">
+      <div class="input">
+      <input class="input_text" id="all" type="text" name="as_q">
+      </div>
+      </div>
+      </div>
+      <div class="container">
+      <div class="table">
+      <div class="label">
+      <label>this exact word or phrase:</label>
+      </div>
+      </div>
+      <div class="input_form">
+      <div class="input">
+      <input class="input_text" id="these" type="text" name="as_epq">
+      </div>
+      </div>
+      </div>
+      <div class="container">
+      <div class="table">
+      <div class="label">
+      <label>any of these words:</label>
+      </div>
+      </div>
+      <div class="input_form">
+      <div class="input">
+      <input class="input_text" id="these" type="text" name="as_oq">
+      </div>
+      </div>
+      </div>
+      <div class="container">
+      <div class="table">
+      <div class="label">
+      <label>none of these words:</label>
+      </div>
+      </div>
+      <div class="input_form">
+      <div class="input">
+      <input class="input_text" id="these" type="text" name="as_eq">
+      </div>
+      </div>
+      </div>
+
+       <br>
+      <input id="advance_search_button" type="submit" value="Advanced Seach">
+
     </body>
 </html>
